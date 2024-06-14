@@ -7,7 +7,7 @@ from tensorflow import keras
 import matplotlib.pyplot as plt
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 import requests
-model = keras.models.load_model('./models/model/model_per_class.h5')
+model = keras.models.load_model('./model/model_per_class.h5')
 
 # DEFINE seg-areas
 SEGMENT_CLASSES = {
